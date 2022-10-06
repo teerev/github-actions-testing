@@ -174,7 +174,7 @@ heroku authorizations:create
       if: github.ref == 'refs/heads/main' && job.status == 'success'
       run: |
         git remote add heroku https://heroku:$HEROKU_API_TOKENA@git.heroku.com/$HEROKU_APP_NAME.git
-        git push heroku HEAD:master -f
+        git push heroku HEAD:main -f
 ````
 
 
