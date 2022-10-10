@@ -134,7 +134,7 @@ jobs:
     - name: Test with pytest
       run: |
         export PYTHONPATH=src
-	pip install pytest
+        pip install pytest
         pytest
 ````
 
